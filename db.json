@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "itemType": "Goods",
+      "name": "Demo Item",
+      "sku": "SKU001",
+      "unit": "Nos",
+      "dimension": "10x10x10",
+      "brand": "BrandName",
+      "manufacturer": "ManufacturerName",
+      "upc": "123456789012",
+      "mpn": "MPN1234",
+      "ean": "1234567890123",
+      "isbn": "9781234567890",
+      "image": "demo.jpg",
+      "sellingPrice": "500",
+      "salesAccount": "Sales",
+      "salesDescription": "This is a demo sales description",
+      "costPrice": "300",
+      "purchaseAccount": "Purchases",
+      "purchaseDescription": "This is a demo purchase description",
+      "trackInventory": true,
+      "openingStock": "100",
+      "openingStockValue": "30000",
+      "reorderPoint": "20",
+      "preferredVendor": "VendorName"
+    }
+  ]
+}

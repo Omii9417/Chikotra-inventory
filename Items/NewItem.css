@@ -1,0 +1,142 @@
+.new-item-wrapper {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #fff;
+}
+
+.page-title {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.new-item-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.form-left {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form-right {
+  flex: 1.2;
+}
+
+.card.section-card {
+  background-color: #f9f9f9;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.grid-2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.grid-3col {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.field-label {
+  font-weight: 500;
+  font-size: 14px;
+  color: #444;
+}
+
+.field-input {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.field-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.full-width-label {
+  grid-column: 1 / -1;
+  margin-top: 10px;
+}
+
+.full-width-input {
+  grid-column: 1 / -1;
+}
+
+.image-card {
+  text-align: center;
+  padding: 20px;
+}
+
+.image-placeholder,
+.image-preview {
+  width: 100%;
+  max-width: 240px;
+  height: 180px;
+  border: 1px dashed #ccc;
+  margin: 0 auto 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #999;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.file-input {
+  margin-top: 10px;
+}
+
+.form-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 18px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #ccc;
+  color: #000;
+}
