@@ -1,0 +1,93 @@
+.settings-page {
+  padding: 20px;
+  background-color: #f4f6f8;
+  min-height: 100vh;
+}
+
+.settings-page h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.settings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.setting-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: box-shadow 0.3s ease;
+}
+
+.setting-card:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.setting-icon {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.setting-card h3 {
+  font-size: 18px;
+  margin: 0 0 10px;
+  color: #1a237e;
+}
+
+.setting-card p {
+  font-size: 14px;
+  color: #555;
+  flex-grow: 1;
+  margin-bottom: 12px;
+}
+
+.btn-configure {
+  padding: 8px 14px;
+  font-size: 14px;
+  background-color: #1a73e8;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-configure:hover {
+  background-color: #1669c1;
+}
+.org-suboptions {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.org-option {
+  cursor: pointer;
+  margin: 6px 0;
+  font-size: 15px;
+  color: #1a1a1a;
+  transition: color 0.2s ease;
+}
+
+.org-option:hover {
+  color: #007bff;
+}
+
+.new-badge {
+  background-color: #ff4d4f;
+  color: #fff;
+  font-size: 10px;
+  padding: 2px 4px;
+  border-radius: 4px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
