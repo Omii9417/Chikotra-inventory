@@ -1,0 +1,53 @@
+.locations-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+  border-radius: 12px;
+}
+
+.enable-button {
+  background-color: #18b36e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 16px 0;
+}
+
+.enabled-message {
+  color: green;
+  font-weight: bold;
+  margin: 16px 0;
+}
+
+.key-benefits {
+  background-color: #f7f9fb;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 1px solid #e3e7ed;
+}
+
+.key-benefits ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.note-section {
+  background-color: #fff6ee;
+  border-left: 4px solid #ffa940;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  color: #333;
+}
+
+.note-section ul {
+  list-style: disc;
+  padding-left: 20px;
+}

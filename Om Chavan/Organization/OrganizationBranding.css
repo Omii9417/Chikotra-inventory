@@ -1,0 +1,138 @@
+.branding-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', sans-serif;
+  --theme-color: #007bff;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section-title {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.logo-upload {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.upload-label {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #f0f4f8;
+  color: var(--theme-color);
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.note {
+  font-size: 12px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.appearance-options {
+  display: flex;
+  gap: 20px;
+}
+
+.appearance-card {
+  flex: 1;
+  padding: 30px 10px;
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.appearance-card.selected {
+  border-color: var(--theme-color);
+  background-color: #f0f8ff;
+}
+
+.color-options {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.color-button {
+  padding: 8px 14px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.color-button.selected {
+  outline: 2px solid var(--theme-color);
+  background-color: var(--theme-color) !important;
+}
+
+/* Button color base */
+.color-button.blue { background-color: #007bff; }
+.color-button.green { background-color: #28a745; }
+.color-button.red { background-color: #dc3545; }
+.color-button.orange { background-color: #fd7e14; }
+.color-button.purple { background-color: #6f42c1; }
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 46px;
+  height: 24px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  background-color: #ccc;
+  border-radius: 24px;
+  transition: 0.4s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: var(--theme-color);
+}
+
+input:checked + .slider:before {
+  transform: translateX(22px);
+}
+
+.slider.round {
+  border-radius: 24px;
+}
