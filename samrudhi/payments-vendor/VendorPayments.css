@@ -1,0 +1,101 @@
+.vendor-payments {
+  background-color: #f8fafc;
+  min-height: 100vh;
+  padding-bottom: 2rem;
+}
+
+.shadow-hover {
+  transition: all 0.3s ease-in-out;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.shadow-hover:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.vendor-modal-top .modal-dialog {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+.vendor-modal-top .modal-dialog {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+.vendor-modal-top .modal-dialog {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+.vendor-modal-top .modal-dialog {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+.vendor-modal-top .modal-dialog {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  max-height: 80vh; /* Prevent overflow */
+}
+
+.modal-body {
+  max-height: 65vh;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+.vendor-payments {
+  background-color: #f8fafc;
+  min-height: 100vh;
+}
+
+.shadow-hover {
+  transition: all 0.25s ease-in-out;
+  border-radius: 10px;
+  background: #fff;
+}
+.shadow-hover:hover {
+  box-shadow: 0 6px 18px rgba(0,0,0,.08);
+  transform: translateY(-2px);
+}
+
+/* Place modals near the top + make large ones readable */
+.vendor-modal-top .modal-dialog {
+  position: absolute;
+  top: 8%;                 /* top-center like screenshots */
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  width: 92%;
+  max-width: 1100px;       /* for size="xl" */
+}
+
+/* Ensure long content is visible and scrollable */
+.vendor-modal-top .modal-body {
+  max-height: 70vh;
+  overflow-y: auto;
+  padding-right: 6px;      /* avoid scrollbar overlap */
+}
+
+/* Subtle two-column spacing inside large modals */
+.split-modal {
+  min-height: 360px;
+}
+
+a:hover { text-decoration: underline; }

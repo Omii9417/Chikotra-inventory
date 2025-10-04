@@ -1,0 +1,50 @@
+.customer-payments {
+  background-color: #f8fafc;
+  min-height: 100vh;
+  padding-bottom: 2rem;
+}
+
+.shadow-hover {
+  transition: all 0.3s ease-in-out;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.shadow-hover:hover {
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.card-body {
+  padding: 1.5rem !important;
+}
+
+button {
+  font-size: 0.85rem;
+}
+
+/* Custom modal position */
+.pricing-modal .modal-dialog {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+/* Modal Top Position */
+.pricing-modal .modal-dialog {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+
