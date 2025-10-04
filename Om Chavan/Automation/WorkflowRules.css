@@ -1,0 +1,84 @@
+.workflow-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.workflow-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.workflow-header h2 {
+  font-size: 22px;
+  color: #333;
+}
+
+.new-rule-btn {
+  padding: 8px 16px;
+  background-color: #4b93d6;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.new-rule-btn:hover {
+  background-color: #3e7db0;
+}
+
+.workflow-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+.workflow-table th,
+.workflow-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+  font-size: 14px;
+}
+
+.workflow-table th {
+  background-color: #f0f0f0;
+  font-weight: 600;
+  color: #444;
+}
+
+.status-active {
+  color: green;
+  font-weight: 600;
+}
+
+.status-inactive {
+  color: #999;
+  font-weight: 500;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 5px 10px;
+  margin-right: 6px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #ffb300;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #e53935;
+  color: white;
+}
