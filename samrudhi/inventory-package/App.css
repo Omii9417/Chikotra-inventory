@@ -1,0 +1,15 @@
+/* Default no highlight for "All" option */
+.dropdown-menu .dropdown-item.no-highlight:hover,
+.dropdown-menu .dropdown-item.no-highlight:active,
+.dropdown-menu .dropdown-item.no-highlight.active {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+/* Blue highlight for remaining 3 options */
+.dropdown-menu .dropdown-item.highlight-option:hover,
+.dropdown-menu .dropdown-item.highlight-option:active,
+.dropdown-menu .dropdown-item.highlight-option.active {
+  background-color: #007bff !important; /* Bootstrap primary blue */
+  color: #fff !important;
+}
